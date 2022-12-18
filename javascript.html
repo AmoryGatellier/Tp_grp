@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Présentation</title>
+    <link rel="stylesheet" href="commun.css" />
+    <link rel="stylesheet" href="js.css">
+</head>
+<body>
+
+    <!--Partie Wael-->
+    <h1>JavaScript</h1>
+    <div id="videojs">
+    <iframe width="1180" height="664" src="https://www.youtube.com/embed/ewjJJE3K4eY" title="Javascript (1) - C'est quoi Javascript?" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></iframe></div>
+    <br>
+    <li>Histoire</li>
+    <p>JavaScript est un langage de programmation de scripts principalement employé dans les pages web interactives et à ce titre est une partie essentielle des applications web. Avec les langages HTML et CSS, JavaScript est au cœur des langages utilisés par les développeurs web. Une grande majorité des sites web l'utilisent, et la majorité des navigateurs web disposent d'un moteur JavaScript pour l'interpréter.
+        <br>
+     JavaScript est aussi employé pour les serveurs Web6 avec l'utilisation (par exemple) de Node.js7 ou de Deno8.
+     <br>
+JavaScript a été créé en 1995 par Brendan Eich et intégré au navigateur web Netscape Navigator 2.0. L'implémentation concurrente de JavaScript par Microsoft dans Internet Explorer jusqu'à sa version 9 se nommait JScript, tandis que celle d'Adobe Systems se nommait ActionScript. JavaScript a été standardisé sous le nom d'ECMAScript en juin 1997 par Ecma International dans le standard ECMA-262. La version en vigueur de ce standard depuis juin 2022 est la 13e édition.
+<br>
+C'est un langage orienté objet à prototype : les bases du langage et ses principales interfaces sont fournies par des objets. Cependant, à la différence d'un langage orienté objets, les objets de base ne sont pas des instances de classes. En outre, les fonctions sont des objets de première classe. Le langage supporte le paradigme objet, impératif et fonctionnel.
+<br>
+JavaScript est le langage possédant le plus large écosystème grâce à son gestionnaire de dépendances npm, avec environ 500 000 paquets en août 2017.</p><br>
+<li>Utilisation</li>
+<p>Le code JavaScript a besoin d'un objet global pour y rattacher les déclarations (variables et fonctions) avant d'exécuter des instructions. La situation la plus connue est celle de l'objet window obtenu dans le contexte d'une page web. D'autres environnements sont possibles dont celui fourni par Adobe ou l'environnement Node.js (voir plus bas Autres utilisations).
+    <br>
+    Du code JavaScript peut être intégré directement au sein des pages web, pour y être exécuté sur le poste client. C'est alors le navigateur web qui prend en charge l'exécution de ces programmes appelés scripts. 
+    <br>
+    Généralement, JavaScript sert à contrôler les données saisies dans des formulaires HTML, ou à interagir avec le document HTML via l'interface Document Object Model, fournie par le navigateur (on parle alors parfois de HTML dynamique ou DHTML). Il est aussi utilisé pour réaliser des applications dynamiques, des transitions, des animations ou manipuler des données réactives, à des fins ergonomiques ou cosmétiques.
+    <br>
+    JavaScript n'est pas limité à la manipulation de documents HTML et peut aussi servir à manipuler des documents SVG, XUL et autres dialectes XML.
+    <br>
+    Incompatibilité
+    Netscape et Microsoft (avec JScript dans Internet Explorer jusqu'à la version 9) ont développé leur propre variante de ce langage qui chacune supporte presque intégralement la norme ECMAScript mais possède des fonctionnalités supplémentaires et incompatibles, rarement utilisées dans le cadre de la programmation de pages web. Pourtant les scripts JavaScript sont souvent la source de difficultés. Elles sont plus souvent dues à la prise en charge des différentes versions des modèles d'objets (DOM) fournis par les navigateurs, qu'à des problèmes de portabilité du langage (les différentes mises en œuvre respectant relativement bien la norme ECMAScript).
+    
+    Pour vérifier dynamiquement si un objet (dans la version JavaScript utilisée lors de l'interprétation) possède bien une méthode, on utilise souvent une construction du type :</p>
+    <li>Exemple</li>
+    <p>alert(maVariable1); // erreur : accès impossible avant l'initialisation
+        alert(maVariable2); // erreur : accès impossible avant l'initialisation
+        <br>
+        let maVariable1 = 5;<br>
+        const maVariable2 = 8;<br>
+        alert(maVariable1); // affiche 5 <br>
+        alert(maVariable2); // affiche 8 <br>
+        <br>
+        // 2. Sans initialiseur
+        <br>
+        alert(maVariable3); // erreur : accès impossible avant l'initialisation <br>
+        alert(maVariable4); // erreur : accès impossible avant l'initialisation <br>
+        let maVariable3;<br>
+        const maVariable4;  // erreur : initialisation manquante <br>
+        alert(maVariable3); // affiche undefined <br>
+        alert(maVariable4); // erreur : initialisation manquante</p>
+
+    <footer>
+        <div id="res0">
+            <div id="res1">
+                <img id="resta" src="images/calliopi.png" alt="logo qualiopi" height="64">
+                <img src="images/mcf.png" alt="logo mcf" height="64">
+            </div>
+
+            <div id="res2">
+                <a href="https://www.linkedin.com/company/adrar-formation" target="_blank" rel="noreferrer noopener nofollow" title="Nous rejoindre sur LinkedIn" data-wpel-link="external"><img src="./images/linkedin.svg" alt="logo linkedin" height="28"></a>
+                <a href="https://www.facebook.com/ADRARformation/" target="_blank" rel="noreferrer noopener nofollow" title="Nous rejoindre sur Facebook" data-wpel-link="external"><img src="images/facebook.svg" alt="logo facebook" height="28"></a>
+                <a href="https://twitter.com/adrarformation" target="_blank" rel="noreferrer noopener nofollow" title="Nous rejoindre sur Twitter" data-wpel-link="external"><img src="images/twitter.svg" alt="logo twitter" height="28"></a>
+            </div>
+
+            <a href="html.html">Page sur l'HTML</a>
+            <a href="page_css.html">Page sur le css</a>
+            <a href="javascript.html">Page sur le javascript</a>
+            <a href="api.html">Page sur les API</a>
+            <a href="form.html">Contactez-nous</a>
+        </div>
+    </footer>      
+</body>
+</html>

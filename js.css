@@ -1,0 +1,31 @@
+/* Partie Wael*/
+
+body{
+    background-image: url(images/jstel.png);
+}
+h1{
+    color: whitesmoke;
+    text-align: center;
+    text-shadow: 3px 3px 5px blue;
+    font-size: xx-large;
+}
+#videojs{
+    display:block;
+    width: 1080px;
+    margin:0 auto 35px auto;
+    border: 3px solid #eee;
+    width: 1180px;
+    height: 664px;
+}
+p{
+    border-style: solid;
+    border-color: black;
+    font-size: x-large;
+    color: whitesmoke;
+    text-shadow: 3px 3px 5px blue;
+}
+li{
+    text-decoration : underline;
+    font-size: xx-large;
+    color: whitesmoke
+}
