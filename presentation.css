@@ -1,4 +1,4 @@
-/* Partie Karim*/
+
 :root{
     --textColor:#171A22;
     --font:'Montserrat', sans-serif;
@@ -24,20 +24,24 @@ h3{
     display: grid;
     grid-template-columns: 380px 1fr;
 }
+
 #photo1{
     border-radius: 5px;
     width: 350px;
     height: 350px;
 }
-img{
+
+#a img{
     border: 5px solid black;
 }
+
 iframe{
     border-radius: 10px;
     border: 5px solid black;
     width: 1800px;
     height: 900px;
 }
+
 p{
     font-size:x-large;
 }
@@ -45,6 +49,7 @@ p{
 div{
     font-size: x-large;
 }
+
 #cestquoi{
     display: grid;
     grid-template-columns: 2fr 1fr;
@@ -54,6 +59,38 @@ div{
     display: grid;
     grid-column:2/2 ;
     grid-template-columns: 2fr 1fr;
+}
+div{
+    text-align: center;
+}
+.uno{
+border: black;
+}
+.flm{
+    text-align: right;
+}
+ul{
+    list-style: none;
+    text-align: center;
+
+}
+a:link{
+    color: rgb(0, 0, 0);
+    
+}
+a:visited{
+    color: #d90429;
+}
+a:hover{
+    color: #2b2d42;
+}
+
+span{
+    color: red;
+}
+.submit{
+margin: 5px;
+padding: 5px;
 }
 @media screen and ( max-width:768px) {
     body {
